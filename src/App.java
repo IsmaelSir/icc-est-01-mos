@@ -6,11 +6,11 @@ public class App {
         int[] arreglo = {10,5,8,2,0};
         //mO.sortBySeleccion(arreglo);
         System.out.println("Con Boleand");
-        System.out.println("\nOrden acendente");
+        System.out.println("\nOrden decendente");
         mO.sortBySeleccionBoolean(arreglo, true);
         mO.printArreglo(arreglo);
 
-        System.out.println("\nOrden desendente");
+        System.out.println("\nOrden acendente");
         mO.sortBySeleccionBoolean(arreglo, false);
         mO.printArreglo(arreglo);
         

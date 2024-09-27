@@ -36,7 +36,7 @@ public class MetodosDeOrdenamiento {
     //Recorre el arreglo
     for (int i = 0; i < tamanio; i++) {
         int indice = i;
-        for (int j = 0; j < arr.length; j++) {
+        for (int j = i+1; j < tamanio; j++) {
             if(asendente
             ? arr[j] < arr[indice]
             : arr[j] > arr[indice]){
